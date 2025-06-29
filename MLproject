@@ -1,0 +1,7 @@
+name: homework
+
+entry_points:
+  elasticnet:
+    command: "python -m homework.src.main --model elasticnet"
+  knn:
+    command: "python -m homework.src.main --model knn"
